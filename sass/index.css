@@ -1514,7 +1514,11 @@ nav .icon-burger .line {
   font-size: 20px;
 }
 
-.fifth-container .container .circle .dot {
+.fifth-container .container .circle a {
+  text-decoration: none;
+}
+
+.fifth-container .container .circle a .dot {
   width: 10px;
   height: 10px;
   border: 1px solid rgba(255, 255, 255, 0.438);
@@ -1526,7 +1530,7 @@ nav .icon-burger .line {
   transition: .2s ease-out;
 }
 
-.fifth-container .container .circle .dot:active {
+.fifth-container .container .circle a .dot:active {
   border: 1px solid rgba(255, 255, 255, 0.741);
   background: linear-gradient(145deg, #ffffff49, #ffffff8c);
 }
@@ -1741,7 +1745,7 @@ footer .fdesc span {
     border: 2px solid white;
     background: linear-gradient(145deg, #9b9b9b49, #8a8a8a00);
     border-radius: 4px;
-    margin: .2em;
+    margin: .6em;
   }
   .second-container-m .exp-card .top {
     color: #FA9429;

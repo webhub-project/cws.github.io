@@ -6,7 +6,6 @@ $bg-color: #080F29;
 {
 font-family: "CustomFont";
 src: url("../font/Aquire.otf");
-
 }
 
 *
@@ -227,7 +226,6 @@ color: #c3c3c3;
 margin-left: .3em;
 box-shadow: 1px 1px 4px #f9f9f9;
 }
-
 }
 
 // .middle
@@ -1483,6 +1481,12 @@ font-weight: normal;
 {
 font-size: 20px;
 
+a
+{
+text-decoration: none;
+
+
+
 .dot
 {
 width: 10px;
@@ -1499,7 +1503,7 @@ border: 1px solid rgba(255, 255, 255, 0.741);
 background: linear-gradient(145deg, #ffffff49, #ffffff8c);
 }
 }
-
+}
 }
 }
 }
@@ -1761,7 +1765,7 @@ padding: 5px;
 border: 2px solid white;
 background: linear-gradient(145deg, #9b9b9b49, #8a8a8a00);
 border-radius: 4px;
-margin: .2em;
+margin: .6em;
 
 .top
 {
